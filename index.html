@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="stylebs.css" rel="stylesheet" type="text/css" />
+  <link href="styless.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300&display=swap" rel="stylesheet">
+  <title>Menu</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="navigation">
+      <ul>
+        <li><button class="button">Home</button></li>
+        <li><button class="button">About</button></li>
+        <li><button class="button">Menu</button></li>
+      </ul>
+    </div>
+    <img
+      src="data:image/png;base64,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"
+      alt="chilli logo">
+
+    <h2 class="name">Volcanic. And. Lethal.</h2>
+    <hr class="horizontal__divider" />
+    <p class="description"><i>eat at your own risk</i></p>
+  </div>
+
+
+  <div class="carousel">
+    <img
+      src="https://images.pexels.com/photos/13292526/pexels-photo-13292526.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      alt="Shawarma">
+    <img
+      src="https://images.pexels.com/photos/6941000/pexels-photo-6941000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      alt="Gyros">
+    <img
+      src="https://images.pexels.com/photos/1199956/pexels-photo-1199956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      alt="Burger">
+    <img
+      src="https://images.pexels.com/photos/2233348/pexels-photo-2233348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      alt="Pizza">
+    <img
+      src="https://images.pexels.com/photos/2092507/pexels-photo-2092507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      alt="Tacos">
+    <img
+      src="https://images.pexels.com/photos/6546021/pexels-photo-6546021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      alt="Falafel">
+  </div>
+
+  <h3>Malaysian Delights</h3>
+
+  <div class="malaysian">
+    <div class="malaysian_img">
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/11912814/pexels-photo-11912814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Nasi Lemak">
+        <p class="img_caption"><img class="thumbsup"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsUlEQVR4nO2SwQnCQBBFH+LBMqxAbMACIgQvgl5zswQrsAhLsAsTPNuD8WIBnhJYmduwJMqSGVDww7/M7L63h4UvzQzIgZEHfAs0QAD21vCNgkuPlvB1BJfuPOEBmHvCn8B4KHzVA5eeLV5f98A/Ve5lGnRRy0rNw4DetCBeWgjCzwvu3oKDp6AFpp6Ck4Z7CBaegmsMtxYUKYI6Ef4AJl2CSh0q1TxLkMi/X3bB/+FdXlQTCqUh2JuTAAAAAElFTkSuQmCC">
+          Nasi Lemak
+          <br><b>RM28.00</b>
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="https://media.istockphoto.com/id/1315167134/photo/close-up-on-penang-char-kuey-teow-is-popular-fried-noodle-with-coceral-shrimp-and-eggs-in.jpg?s=1024x1024&w=is&k=20&c=xYjeanpAteg-KoNB4vZeIIP8CFUVrRHcwfaQ9r2Vo-4="
+          alt="Char Kuey Teow">
+        <p class="img_caption">Char Kuey Teow <br><b>RM28.00</b></p>
+      </div>
+
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/11912814/pexels-photo-11912814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Nasi Lemak">
+        <p class="img_caption">Nasi Lemak <br><b>RM28.00</b></p>
+      </div>
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/11912814/pexels-photo-11912814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Nasi Lemak">
+        <p class="img_caption">Nasi Lemak <br><b>RM28.00</b></p>
+      </div>
+    </div>
+
+
+  </div>
+
+  <h3>Middle Eastern Delights</h3>
+
+  <div class="middle_eastern">
+    <div class="middleeast_img">
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/18177324/pexels-photo-18177324/free-photo-of-shawarma.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Shawarma">
+        <p class="img_caption">Shawarma <br><b>RM28.00</b></p>
+      </div>
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/18177324/pexels-photo-18177324/free-photo-of-shawarma.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Shawarma">
+        <p class="img_caption">Shawarma <br><b>RM28.00</b></p>
+      </div>
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/18177324/pexels-photo-18177324/free-photo-of-shawarma.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Shawarma">
+        <p class="img_caption">Shawarma <br><b>RM28.00</b></p>
+      </div>
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/18177324/pexels-photo-18177324/free-photo-of-shawarma.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Shawarma">
+        <p class="img_caption">Shawarma <br><b>RM28.00</b></p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Western Delights</h3>
+
+  <div class="western">
+    <div class="western_img">
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/12349437/pexels-photo-12349437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Cordon Bleu">
+        <p class="img_caption">Cordon Bleu <br><b>RM28.00</b></p>
+      </div>
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/12349437/pexels-photo-12349437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Cordon Bleu">
+        <p class="img_caption">Cordon Bleu <br><b>RM28.00</b></p>
+      </div>
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Pasta">
+        <p class="img_caption">Pasta <br><b>RM28.00</b></p>
+      </div>
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Pasta">
+        <p class="img_caption">Pasta <br><b>RM28.00</b></p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer class="footer">
+
+  </footer>
+</body>
+
+</html>
